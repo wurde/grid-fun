@@ -5,19 +5,21 @@
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "tsc --project tsconfig.json && webpack-cli --config webpack.config.js --mode production --entry ./dist/index.js --output ./public/index.js",
-    "build:watch": "ts-node-dev --respawn --no-notify --project tsconfig.json && webpack-cli --mode production --entry ./dist/index.js --output ./public/index.js",
+    "build": "tsc --project tsconfig.json && npm run webpack",
+    "build:dev": "nodemon --exec 'npm run build' --watch src --ext ts,js",
+    "webpack": "webpack-cli --config webpack.config.js --mode production --entry ./dist/index.js --output ./public/index.js",
     "start": "node server.js",
-    "start:dev": "nodemon server.js"
+    "start:dev": "nodemon server.js",
+    "dev": "concurrently 'npm run build:dev' 'npm run start:dev'"
   },
   "author": "Andy Bettisworth",
   "license": "MIT",
   "devDependencies": {
+    "concurrently": "^5.0.0",
     "lit-element": "^2.2.1",
     "nodemon": "^2.0.2",
     "rimraf": "^3.0.0",
     "ts-loader": "^6.2.1",
-    "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
