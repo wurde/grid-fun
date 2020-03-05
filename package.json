@@ -18,6 +18,7 @@
     "concurrently": "^5.0.0",
     "express": "^4.17.1",
     "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
     "nodemon": "^2.0.2",
     "rimraf": "^3.0.0",
     "ts-loader": "^6.2.1",
