@@ -55,6 +55,7 @@ export class UiSketchesImage extends LitElement {
           usemap="#ui-links"
           alt="UI Sketches."
         />
+        <!-- Row 1 -->
         <a href="/ui-1"><div style="left: 45px; top: 42px;"></div></a>
         <a href="/ui-2"><div style="left: 129px; top: 42px;"></div></a>
         <a href="/ui-3"><div style="left: 211px; top: 42px;"></div></a>
@@ -64,6 +65,56 @@ export class UiSketchesImage extends LitElement {
         <a href="/ui-7"><div style="left: 545px; top: 42px;"></div></a>
         <a href="/ui-8"><div style="left: 630px; top: 42px;"></div></a>
         <a href="/ui-9"><div style="left: 713px; top: 42px;"></div></a>
+        <!-- Row 2 -->
+        <a href="/ui-1"><div style="left: 45px; top: 125px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 125px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 125px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 125px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 125px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 125px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 125px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 125px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 125px;"></div></a>
+        <!-- Row 3 -->
+        <a href="/ui-1"><div style="left: 45px; top: 208px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 208px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 208px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 208px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 208px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 208px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 208px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 208px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 208px;"></div></a>
+        <!-- Row 4 -->
+        <a href="/ui-1"><div style="left: 45px; top: 291px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 291px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 291px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 291px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 291px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 291px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 291px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 291px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 291px;"></div></a>
+        <!-- Row 5 -->
+        <a href="/ui-1"><div style="left: 45px; top: 375px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 375px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 375px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 375px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 375px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 375px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 375px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 375px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 375px;"></div></a>
+        <!-- Row 6 -->
+        <a href="/ui-1"><div style="left: 45px; top: 459px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 459px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 459px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 459px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 459px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 459px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 459px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 459px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 459px;"></div></a>
       </section>
     `;
   }
