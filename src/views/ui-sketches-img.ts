@@ -40,12 +40,21 @@ export class UiSketchesImage extends LitElement {
     }
   `;
 
+  visitDemo(e: Event) {
+    e.preventDefault();
+    this.dispatchEvent(new CustomEvent("visit-demo", {
+      detail: { sketchNumber: e.target.data.sketchNumber },
+      composed: true,
+      bubbles: true,
+    }));
+  }
+
   render() {
     return html`
       <section>
         <img src="/images/brainstorm-ui-20200226.png" alt="UI Sketches." />
         <!-- Row 1 -->
-        <a href="/ui-1"><div style="left: 45px; top: 42px;"></div></a>
+        <a href="/ui-1" @click="${this.visitDemo}" data-sketch-number="1"><div style="left: 45px; top: 42px;"></div></a>
         <a href="/ui-2"><div style="left: 129px; top: 42px;"></div></a>
         <a href="/ui-3"><div style="left: 211px; top: 42px;"></div></a>
         <a href="/ui-4"><div style="left: 295px; top: 42px;"></div></a>

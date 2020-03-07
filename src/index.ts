@@ -1,9 +1,12 @@
-import { LitElement, html, css, customElement } from "lit-element";
+import { LitElement, html, css, property, customElement } from "lit-element";
 
 import "./views";
 
 @customElement("grid-fun-app")
 export class GridFunApp extends LitElement {
+  @property({ type: String }) currentView: string = "ui-sketches";
+  @property({ type: Number }) sketchNumber: number = 1;
+
   static styles = css`
     :host {
       height: 100vh;
@@ -22,9 +25,31 @@ export class GridFunApp extends LitElement {
     }
   `;
 
+  constructor() {
+    super();
+    this.addEventListener("visit-demo", (e: CustomEvent) => {
+      console.log('visit-demo', e.detail);
+      this.sketchNumber = e.detail.sketchNumber;
+      this.currentView = "ui-demo";
+    });
+  }
+
+  renderCurrentView() {
+    switch (this.currentView) {
+      case 'ui-sketches':
+        return html`<ui-sketches-img></ui-sketches-img>`;
+      case "ui-demo":
+        return html`
+          <ui-demo .sketchNumber="${this.sketchNumber}"></ui-demo>
+        `;
+      default:
+        return html`<ui-sketches-img></ui-sketches-img>`;
+    }
+  }
+
   render() {
     return html`
-      <ui-sketches-img></ui-sketches-img>
+      ${this.renderCurrentView()}
     `;
   }
 }
