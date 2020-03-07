@@ -6,7 +6,27 @@ export class UiDemo extends LitElement {
 
   static styles = css`
     :host {
-      background-color: yellow;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      padding: 15px 0px;
+      color: #DDD;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    iframe {
+      width: 90vw;
+      height: 90vh;
+    }
+
+    @media (min-width: 1024px) {
+      iframe {
+        width: 85vw;
+        height: 85vh;
+      }
     }
   `;
 
@@ -20,8 +40,21 @@ export class UiDemo extends LitElement {
 
   render() {
     return html`
-      <a href="/" @click="${this.goHome}">Go Back</a>
-      ${this.sketchNumber}
+      <a href="/" @click="${this.goHome}">Back</a>
+
+      <iframe
+        scrolling="no"
+        title="mdJqjJw"
+        src="https://codepen.io/tunnells/embed/mdJqjJw?height=265&theme-id=dark&default-tab=css,result"
+        frameborder="no"
+        allowtransparency="true"
+        allowfullscreen="true"
+      >
+        See the Pen
+        <a href="https://codepen.io/tunnells/pen/mdJqjJw">mdJqjJw</a> by
+        tunnells (<a href="https://codepen.io/tunnells">@tunnells</a>) on
+        <a href="https://codepen.io">CodePen</a>.
+      </iframe>
     `;
   }
 }

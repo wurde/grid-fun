@@ -20,7 +20,7 @@ export class GridFunApp extends LitElement {
       background-color: #333;
     }
 
-    ui-sketches-img {
+    ui-sketches-img, ui-demo {
       grid-area: c;
     }
   `;
