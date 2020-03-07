@@ -99,8 +99,7 @@
       background-color: rgba(0, 0, 0, 0.25);
     }
   `,re([(oe={type:String},(e,t)=>void 0!==t?((e,t,i)=>{t.constructor.createProperty(i,e)})(oe,e,t):X(oe,e))],ne.prototype,"usemap",void 0),ne=re([Q("ui-sketches-img")],ne),i.d(t,"GridFunApp",(function(){return le}));var ae=function(e,t,i,s){var r,n=arguments.length,o=n<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(e,t,i,s);else for(var a=e.length-1;a>=0;a--)(r=e[a])&&(o=(n<3?r(o):n>3?r(t,i,o):r(t,i))||o);return n>3&&o&&Object.defineProperty(t,i,o),o};let le=class extends se{render(){return M`
-      <ui-sketches-img .usemap="ui-links"></ui-sketches-img>
-      <ui-sketches-map .name="ui-links"></ui-sketches-map>
+      <ui-sketches-img></ui-sketches-img>
     `}};le.styles=te`
     :host {
       height: 100vh;
