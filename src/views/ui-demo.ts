@@ -1,5 +1,7 @@
 import { LitElement, html, css, property, customElement } from "lit-element";
 
+import sketches from "../sketches/20200302";
+
 @customElement("ui-demo")
 export class UiDemo extends LitElement {
   @property({ type: Number }) sketchNumber: number = 0;
@@ -42,20 +44,7 @@ export class UiDemo extends LitElement {
     return html`
       <a href="/" @click="${this.goHome}">Back</a>
 
-      <iframe
-        scrolling="no"
-        title="mdJqjJw"
-        src="https://codepen.io/tunnells/embed/mdJqjJw?height=265&theme-id=dark&default-tab=css,result"
-        frameborder="no"
-        allowtransparency="true"
-        allowfullscreen="true"
-      >
-        See the Pen
-        <a href="https://codepen.io/tunnells/pen/mdJqjJw">mdJqjJw</a> by
-        tunnells (<a href="https://codepen.io/tunnells">@tunnells</a>) on
-        <a href="https://codepen.io">CodePen</a>.
-      </iframe>
+      ${sketches[this.sketchNumber]()}
     `;
   }
 }
-
