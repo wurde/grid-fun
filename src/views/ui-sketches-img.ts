@@ -32,7 +32,7 @@ export class UiSketchesImage extends LitElement {
 
     div {
       position: absolute;
-      width: 52px;
+      width: 51px;
       height: 52px;
       background-color: rgba(0, 0, 0, 0.25);
     }
@@ -56,7 +56,14 @@ export class UiSketchesImage extends LitElement {
           alt="UI Sketches."
         />
         <a href="/ui-1"><div style="left: 45px; top: 42px;"></div></a>
-        <a href="/ui-2"><div style="left: 135px; top: 42px;"></div></a>
+        <a href="/ui-2"><div style="left: 129px; top: 42px;"></div></a>
+        <a href="/ui-3"><div style="left: 211px; top: 42px;"></div></a>
+        <a href="/ui-4"><div style="left: 295px; top: 42px;"></div></a>
+        <a href="/ui-5"><div style="left: 380px; top: 42px;"></div></a>
+        <a href="/ui-6"><div style="left: 464px; top: 42px;"></div></a>
+        <a href="/ui-7"><div style="left: 545px; top: 42px;"></div></a>
+        <a href="/ui-8"><div style="left: 630px; top: 42px;"></div></a>
+        <a href="/ui-9"><div style="left: 713px; top: 42px;"></div></a>
       </section>
     `;
   }
