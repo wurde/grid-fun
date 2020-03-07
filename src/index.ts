@@ -3,6 +3,11 @@ import { LitElement, html, property, customElement } from "lit-element";
 import "./layouts";
 import "./components/SelectCurrentView";
 
+const views = {
+  "full-screen": "Full Screen",
+  "simple-sidebar": "Simple Sidebar",
+};
+
 @customElement("grid-fun-app")
 export class GridFunApp extends LitElement {
   @property({ type: String }) currentView = "simple-sidebar";
@@ -18,6 +23,7 @@ export class GridFunApp extends LitElement {
       </h1>
 
       <select-current-view
+        .views="${views}"
         .currentView="${this.currentView}"
         @change-view="${this.changeView}"
       ></select-current-view>
