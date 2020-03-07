@@ -43,7 +43,7 @@ export class UiSketchesImage extends LitElement {
   visitDemo(e: Event) {
     e.preventDefault();
     this.dispatchEvent(new CustomEvent("visit-demo", {
-      detail: { sketchNumber: e.target.data.sketchNumber },
+      detail: { sketchNumber: (<HTMLAnchorElement>e.currentTarget).dataset.sketchNumber },
       composed: true,
       bubbles: true,
     }));

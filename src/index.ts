@@ -27,11 +27,10 @@ export class GridFunApp extends LitElement {
 
   constructor() {
     super();
-    this.addEventListener("visit-demo", (e: CustomEvent) => {
-      console.log('visit-demo', e.detail);
+    this.addEventListener("visit-demo", ((e: CustomEvent) => {
       this.sketchNumber = e.detail.sketchNumber;
       this.currentView = "ui-demo";
-    });
+    }) as EventListener);
   }
 
   renderCurrentView() {
