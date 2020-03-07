@@ -1,7 +1,7 @@
 import { LitElement, html, property, customElement } from "lit-element";
 
 import "./layouts";
-import "./components/SelectCurrentView";
+import "./components/select-current-view";
 
 const views = {
   "full-screen": "Full Screen",
