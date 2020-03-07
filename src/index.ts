@@ -24,7 +24,8 @@ export class GridFunApp extends LitElement {
 
   render() {
     return html`
-      <ui-sketches-img></ui-sketches-img>
+      <ui-sketches-img .usemap="ui-links"></ui-sketches-img>
+      <ui-sketches-map .name="ui-links"></ui-sketches-map>
     `;
   }
 }
