@@ -11,7 +11,13 @@ export class UiSketchesImage extends LitElement {
     }
 
     img {
-      width: 95%;
+      width: 90%;
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 10px;
+      -webkit-box-shadow: -15px 15px 19px -12px rgba(0,0,0,0.75);
+      -moz-box-shadow: -15px 15px 19px -12px rgba(0,0,0,0.75);
+      box-shadow: -15px 15px 19px -12px rgba(0,0,0,0.75);
     }
 
     @media (min-width: 1024px) {
