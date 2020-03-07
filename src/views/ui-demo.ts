@@ -10,8 +10,17 @@ export class UiDemo extends LitElement {
     }
   `;
 
+  goHome(e: Event) {
+    e.preventDefault();
+    this.dispatchEvent(new CustomEvent("visit-home", {
+      composed: true,
+      bubbles: true,
+    }));
+  }
+
   render() {
     return html`
+      <a href="/" @click="${this.goHome}">Go Back</a>
       ${this.sketchNumber}
     `;
   }

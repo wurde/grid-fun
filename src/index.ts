@@ -31,6 +31,9 @@ export class GridFunApp extends LitElement {
       this.sketchNumber = e.detail.sketchNumber;
       this.currentView = "ui-demo";
     }) as EventListener);
+    this.addEventListener("visit-home", ((e: CustomEvent) => {
+      this.currentView = "ui-sketches";
+    }) as EventListener);
   }
 
   renderCurrentView() {
