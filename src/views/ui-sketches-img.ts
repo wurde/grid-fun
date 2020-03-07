@@ -52,7 +52,7 @@ export class UiSketchesImage extends LitElement {
   render() {
     return html`
       <section>
-        <img src="/images/brainstorm-ui-20200226.png" alt="UI Sketches." />
+        <img src="/images/brainstorm-ui-20200302.png" alt="UI Sketches." />
         <!-- Row 1 -->
         <a href="/ui-1" @click="${this.visitDemo}" data-sketch-number="1"><div style="left: 45px; top: 42px;"></div></a>
         <a href="/ui-2" @click="${this.visitDemo}" data-sketch-number="2"><div style="left: 129px; top: 42px;"></div></a>
