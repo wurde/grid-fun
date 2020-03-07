@@ -1,4 +1,4 @@
-import { LitElement, html, css, property, customElement } from "lit-element";
+import { LitElement, html, css, customElement } from "lit-element";
 
 @customElement("ui-sketches-img")
 export class UiSketchesImage extends LitElement {
@@ -32,17 +32,18 @@ export class UiSketchesImage extends LitElement {
       position: absolute;
       width: 51px;
       height: 52px;
-      background-color: rgba(0, 0, 0, 0.25);
+    }
+    div:hover {
+      -webkit-box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.35);
+      box-shadow: -3px 5px 5px 0px rgba(0, 0, 0, 0.35);
     }
   `;
 
   render() {
     return html`
       <section>
-        <img
-          src="/images/brainstorm-ui-20200226.png"
-          alt="UI Sketches."
-        />
+        <img src="/images/brainstorm-ui-20200226.png" alt="UI Sketches." />
         <!-- Row 1 -->
         <a href="/ui-1"><div style="left: 45px; top: 42px;"></div></a>
         <a href="/ui-2"><div style="left: 129px; top: 42px;"></div></a>
