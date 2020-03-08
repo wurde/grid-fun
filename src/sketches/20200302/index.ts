@@ -20,6 +20,8 @@ const sketches: any = [
   { title: "UI Sketch 17", id: "wvaPYJg" },
   { title: "UI Sketch 18", id: "PoqOyKG" },
   { title: "UI Sketch 19", id: "NWqwmXP" },
+  { title: "UI Sketch 20", id: "XWbzQPz" }
+  { title: "UI Sketch 21", id: "dyoZLBa" }
 ];
 
 for (let i = 0; i < sketches.length; i++) {
