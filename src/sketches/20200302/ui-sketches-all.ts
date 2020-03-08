@@ -143,3 +143,39 @@ export function ui_8() {
     </iframe>
   `;
 }
+
+export function ui_9() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 9"
+      src="https://codepen.io/wurde/embed/wvaPxZN?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/wvaPxZN">UI Sketch 9</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
+
+export function ui_10() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 10"
+      src="https://codepen.io/wurde/embed/dyoZqpe?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/dyoZqpe">UI Sketch 10</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
