@@ -179,3 +179,21 @@ export function ui_10() {
     </iframe>
   `;
 }
+
+export function ui_11() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 11"
+      src="https://codepen.io/wurde/embed/qBdVMqx?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/qBdVMqx">UI Sketch 11</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
