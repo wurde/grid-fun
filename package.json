@@ -1,6 +1,6 @@
 {
   "name": "grid-fun",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Exploring Grid CSS via Web Components.",
   "private": true,
   "scripts": {
