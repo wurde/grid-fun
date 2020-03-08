@@ -18,12 +18,14 @@ const sketches: any = [
   { title: "UI Sketch 15", id: "abOVaej" },
   { title: "UI Sketch 16", id: "ExjbdVe" },
   { title: "UI Sketch 17", id: "wvaPYJg" },
+  { title: "UI Sketch 18", id: "PoqOyKG" },
+  { title: "UI Sketch 19", id: "NWqwmXP" },
 ];
 
 for (let i = 0; i < sketches.length; i++) {
   sketches[i].render = () => {
     return html`
-      <h2>${i} ${sketches[i].title}</h2>
+      <h2>${sketches[i].title}</h2>
       <iframe
         scrolling="no"
         title="${sketches[i].title}"

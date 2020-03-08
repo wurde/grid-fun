@@ -46,7 +46,7 @@ export class UiDemo extends LitElement {
       <a href="/" @click="${this.goHome}">Back</a>
 
       ${this.sketchNumber-1 in sketches ? sketches[this.sketchNumber-1].render() : html`
-        <h2>Pending...${this.sketchNumber} ${sketches.length} ${this.sketchNumber in sketches}</h2>
+        <h2>Pending...</h2>
       `}
     `;
   }
