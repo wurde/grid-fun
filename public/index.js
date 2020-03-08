@@ -213,11 +213,14 @@
   `}},le=function(e,t,i,s){var r,n=arguments.length,o=n<3?t:null===s?s=Object.getOwnPropertyDescriptor(t,i):s;if("object"==typeof Reflect&&"function"==typeof Reflect.decorate)o=Reflect.decorate(e,t,i,s);else for(var a=e.length-1;a>=0;a--)(r=e[a])&&(o=(n<3?r(o):n>3?r(t,i,o):r(t,i))||o);return n>3&&o&&Object.defineProperty(t,i,o),o};let ce=class extends re{constructor(){super(...arguments),this.sketchNumber=0}goHome(e){e.preventDefault(),this.dispatchEvent(new CustomEvent("visit-home",{composed:!0,bubbles:!0}))}render(){return j`
       <a href="/" @click="${this.goHome}">Back</a>
 
-      ${ae[this.sketchNumber]()}
+      ${this.sketchNumber in ae?ae[this.sketchNumber]():j`
+        <h2>Pending...</h2>
+      `}
     `}};ce.styles=ie`
     :host {
       display: flex;
       flex-direction: column;
+      color: #DDD;
     }
 
     a {

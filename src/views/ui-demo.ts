@@ -10,6 +10,7 @@ export class UiDemo extends LitElement {
     :host {
       display: flex;
       flex-direction: column;
+      color: #DDD;
     }
 
     a {
@@ -44,7 +45,9 @@ export class UiDemo extends LitElement {
     return html`
       <a href="/" @click="${this.goHome}">Back</a>
 
-      ${sketches[this.sketchNumber]()}
+      ${this.sketchNumber in sketches ? sketches[this.sketchNumber]() : html`
+        <h2>Pending...</h2>
+      `}
     `;
   }
 }
