@@ -197,3 +197,57 @@ export function ui_11() {
     </iframe>
   `;
 }
+
+export function ui_12() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 12"
+      src="https://codepen.io/wurde/embed/zYGPJWP?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/zYGPJWP">UI Sketch 12</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
+
+export function ui_13() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 13"
+      src="https://codepen.io/wurde/embed/QWbOVRG?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/QWbOVRG">UI Sketch 13</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
+
+export function ui_14() {
+  return html`
+    <iframe
+      scrolling="no"
+      title="UI Sketch 14"
+      src="https://codepen.io/wurde/embed/VwLrGON?height=265&theme-id=dark&default-tab=css,result"
+      frameborder="no"
+      allowtransparency="true"
+      allowfullscreen="true"
+    >
+      See the Pen
+      <a href="https://codepen.io/wurde/pen/VwLrGON">UI Sketch 14</a> by Andy
+      Bettisworth (<a href="https://codepen.io/wurde">@wurde</a>) on
+      <a href="https://codepen.io">CodePen</a>.
+    </iframe>
+  `;
+}
