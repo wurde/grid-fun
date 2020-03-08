@@ -1,7 +1,7 @@
 {
   "name": "grid-fun",
   "version": "0.0.0",
-  "description": "A sample app using Web Components to explore Grid CSS.",
+  "description": "Exploring Grid CSS via Web Components.",
   "private": true,
   "scripts": {
     "prebuild": "rimraf dist/*",
