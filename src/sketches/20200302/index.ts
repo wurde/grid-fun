@@ -52,6 +52,9 @@ const sketches: any = [
   { title: "UI Sketch 49", id: "jOPYOGX" },
   { title: "UI Sketch 50", id: "abOEbEd" },
   { title: "UI Sketch 51", id: "GRJyRyy" },
+  { title: "UI Sketch 52", id: "xxGpxYV" },
+  { title: "UI Sketch 53", id: "bGdaGjQ" },
+  { title: "UI Sketch 54", id: "eYNyYPm" },
 ];
 
 for (let i = 0; i < sketches.length; i++) {
